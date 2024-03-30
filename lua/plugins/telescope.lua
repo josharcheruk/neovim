@@ -13,6 +13,11 @@ return {
             require("telescope.themes").get_dropdown({}),
           },
         },
+        pickers = {
+          find_files = {
+            hidden = true
+          },
+        },
       })
       local builtin = require("telescope.builtin")
       -- Telescope Keybindings
